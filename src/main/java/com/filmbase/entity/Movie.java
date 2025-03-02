@@ -182,12 +182,4 @@ public class Movie {
      */
     private String trailerUrl;
 
-    /**
-     * The official release date of the movie.
-     * This field is required.
-     */
-    @NotNull(message = "Release date is required")
-    @Column(nullable = false)
-    private LocalDate releaseDate;
 }
-    

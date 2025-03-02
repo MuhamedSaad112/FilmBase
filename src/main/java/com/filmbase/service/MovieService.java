@@ -4,10 +4,12 @@ package com.filmbase.service;
 
 import com.filmbase.dto.MovieDTO;
 import com.filmbase.dto.MoviePageResponse;
+import com.filmbase.entity.Movie;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 
 public interface MovieService {
 
@@ -26,10 +28,20 @@ public interface MovieService {
 
     MoviePageResponse getAllMoviesWithPaginationAndSorting(Integer pageNumber, Integer pageSize, String sortBy, String direction);
 
-//    List<MovieDTO> getMoviesByDirector(String directorName);
-//
-//    List<MovieDTO> getMoviesByGenre(String genre);
-//
-//    long getMoviesCount();
+    Optional<Movie> findByTitle(String title);
+
+    List<Movie> findByDirector(String director);
+
+    List<Movie> findByStudio(String studio);
+
+    List<Movie> findByTitleContainingIgnoreCase(String keyword);
+
+    List<Movie> findByDirectorAndStudio(String director, String studio);
+
+    List<Movie> findMoviesByActor(String actor);
+
+    List<Movie> findLatestMovies();
+
+    boolean existsByTitle(String title);
 
 }

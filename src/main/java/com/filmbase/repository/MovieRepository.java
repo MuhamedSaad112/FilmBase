@@ -70,11 +70,10 @@ public interface MovieRepository extends JpaRepository<Movie, Long> {
     /**
      * Find the latest movies by release date
      *
-     * @param limit number of movies to return
      * @return List of most recent movies
      */
     @Query("SELECT m FROM Movie m ORDER BY m.releaseYear DESC")
-    List<Movie> findLatestMovies(int limit);
+    List<Movie> findLatestMovies();
 
     /**
      * Check if a movie title already exists
