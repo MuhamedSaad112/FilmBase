@@ -1,0 +1,324 @@
+[
+  {
+    "movieId": 1,
+    "title": "Space Odyssey",
+    "director": "Jane Smith",
+    "genre": "Sci-Fi",
+    "description": "A journey through space, uncovering the mysteries of the universe.",
+    "language": "English",
+    "duration": 150,
+    "studio": "Star Productions",
+    "rating": 9.0,
+    "movieCast": [
+      "Actor A",
+      "Actor B",
+      "Actor C"
+    ],
+    "countryOfOrigin": "UK",
+    "availableLanguages": [
+      "English",
+      "German"
+    ],
+    "subtitleLanguages": [
+      "English",
+      "French"
+    ],
+    "releaseYear": 2026,
+    "poster": "/images/space-odyssey-poster.jpg",
+    "boxOfficeRevenue": 600000000,
+    "productionCompany": "Galaxy Films",
+    "ageRating": "PG",
+    "keywords": [
+      "space",
+      "exploration",
+      "future"
+    ],
+    "trailerUrl": "https://www.example.com/space-odyssey-trailer"
+  },
+  {
+    "movieId": 2,
+    "title": "Romantic Getaway",
+    "director": "Michael Lee",
+    "genre": "Romance",
+    "description": "A romantic journey where love blooms during a spontaneous getaway.",
+    "language": "English",
+    "duration": 100,
+    "studio": "Heart Studios",
+    "rating": 7.5,
+    "movieCast": [
+      "Actor D",
+      "Actor E"
+    ],
+    "countryOfOrigin": "USA",
+    "availableLanguages": [
+      "English",
+      "Italian"
+    ],
+    "subtitleLanguages": [
+      "English",
+      "Spanish"
+    ],
+    "releaseYear": 2024,
+    "poster": "/images/romantic-getaway-poster.jpg",
+    "boxOfficeRevenue": 120000000,
+    "productionCompany": "Love Films",
+    "ageRating": "PG-13",
+    "keywords": [
+      "love",
+      "vacation",
+      "romance"
+    ],
+    "trailerUrl": "https://www.example.com/romantic-getaway-trailer"
+  },
+  {
+    "movieId": 3,
+    "title": "City of Shadows",
+    "director": "Richard White",
+    "genre": "Thriller",
+    "description": "A dark tale set in a city where secrets lurk around every corner.",
+    "language": "English",
+    "duration": 130,
+    "studio": "Dark Films",
+    "rating": 8.3,
+    "movieCast": [
+      "Actor F",
+      "Actor G",
+      "Actor H"
+    ],
+    "countryOfOrigin": "Canada",
+    "availableLanguages": [
+      "English",
+      "French"
+    ],
+    "subtitleLanguages": [
+      "English",
+      "German"
+    ],
+    "releaseYear": 2025,
+    "poster": "/images/city-of-shadows-poster.jpg",
+    "boxOfficeRevenue": 200000000,
+    "productionCompany": "Mystery Studios",
+    "ageRating": "R",
+    "keywords": [
+      "thriller",
+      "mystery",
+      "crime"
+    ],
+    "trailerUrl": "https://www.example.com/city-of-shadows-trailer"
+  },
+  {
+    "movieId": 4,
+    "title": "The Lost Kingdom",
+    "director": "Sophia Turner",
+    "genre": "Adventure",
+    "description": "A journey to find an ancient, long-forgotten kingdom.",
+    "language": "English",
+    "duration": 140,
+    "studio": "Epic Studios",
+    "rating": 8.7,
+    "movieCast": [
+      "Actor I",
+      "Actor J",
+      "Actor K"
+    ],
+    "countryOfOrigin": "India",
+    "availableLanguages": [
+      "English",
+      "Hindi"
+    ],
+    "subtitleLanguages": [
+      "English",
+      "Spanish"
+    ],
+    "releaseYear": 2027,
+    "poster": "/images/lost-kingdom-poster.jpg",
+    "boxOfficeRevenue": 550000000,
+    "productionCompany": "Royal Productions",
+    "ageRating": "PG-13",
+    "keywords": [
+      "kingdom",
+      "exploration",
+      "history"
+    ],
+    "trailerUrl": "https://www.example.com/lost-kingdom-trailer"
+  },
+  {
+    "movieId": 5,
+    "title": "War of the Titans",
+    "director": "Luke Harris",
+    "genre": "Action",
+    "description": "Ancient gods clash in a battle for dominance in the mortal world.",
+    "language": "English",
+    "duration": 160,
+    "studio": "Titan Studios",
+    "rating": 9.2,
+    "movieCast": [
+      "Actor L",
+      "Actor M",
+      "Actor N"
+    ],
+    "countryOfOrigin": "USA",
+    "availableLanguages": [
+      "English",
+      "Greek"
+    ],
+    "subtitleLanguages": [
+      "English",
+      "Russian"
+    ],
+    "releaseYear": 2028,
+    "poster": "/images/war-of-titans-poster.jpg",
+    "boxOfficeRevenue": 800000000,
+    "productionCompany": "Gods Entertainment",
+    "ageRating": "R",
+    "keywords": [
+      "gods",
+      "action",
+      "battle"
+    ],
+    "trailerUrl": "https://www.example.com/war-of-titans-trailer"
+  },
+  {
+    "movieId": 6,
+    "title": "Mystery Island",
+    "director": "Laura Davis",
+    "genre": "Mystery",
+    "description": "A group of adventurers solve a series of riddles to uncover the island's secret.",
+    "language": "English",
+    "duration": 115,
+    "studio": "Mystery Studios",
+    "rating": 7.9,
+    "movieCast": [
+      "Actor O",
+      "Actor P",
+      "Actor Q"
+    ],
+    "countryOfOrigin": "Australia",
+    "availableLanguages": [
+      "English",
+      "Japanese"
+    ],
+    "subtitleLanguages": [
+      "English",
+      "French"
+    ],
+    "releaseYear": 2025,
+    "poster": "/images/mystery-island-poster.jpg",
+    "boxOfficeRevenue": 350000000,
+    "productionCompany": "Island Films",
+    "ageRating": "PG",
+    "keywords": [
+      "mystery",
+      "island",
+      "puzzle"
+    ],
+    "trailerUrl": "https://www.example.com/mystery-island-trailer"
+  },
+  {
+    "movieId": 7,
+    "title": "Pirates of the Seas",
+    "director": "Alex Morgan",
+    "genre": "Adventure",
+    "description": "A pirate crew searches for a legendary treasure buried deep beneath the sea.",
+    "language": "English",
+    "duration": 125,
+    "studio": "Treasure Studios",
+    "rating": 8.1,
+    "movieCast": [
+      "Actor R",
+      "Actor S",
+      "Actor T"
+    ],
+    "countryOfOrigin": "Bahamas",
+    "availableLanguages": [
+      "English",
+      "Portuguese"
+    ],
+    "subtitleLanguages": [
+      "English",
+      "Spanish"
+    ],
+    "releaseYear": 2026,
+    "poster": "/images/pirates-of-the-seas-poster.jpg",
+    "boxOfficeRevenue": 400000000,
+    "productionCompany": "Pirate Films",
+    "ageRating": "PG-13",
+    "keywords": [
+      "pirates",
+      "treasure",
+      "adventure"
+    ],
+    "trailerUrl": "https://www.example.com/pirates-of-the-seas-trailer"
+  },
+  {
+    "movieId": 8,
+    "title": "Secret Agent",
+    "director": "Nina Edwards",
+    "genre": "Action",
+    "description": "A skilled agent uncovers a global conspiracy while battling dangerous enemies.",
+    "language": "English",
+    "duration": 140,
+    "studio": "Agent Studios",
+    "rating": 8.4,
+    "movieCast": [
+      "Actor U",
+      "Actor V"
+    ],
+    "countryOfOrigin": "USA",
+    "availableLanguages": [
+      "English",
+      "French"
+    ],
+    "subtitleLanguages": [
+      "English",
+      "German"
+    ],
+    "releaseYear": 2029,
+    "poster": "/images/secret-agent-poster.jpg",
+    "boxOfficeRevenue": 550000000,
+    "productionCompany": "Spy Films",
+    "ageRating": "R",
+    "keywords": [
+      "spy",
+      "action",
+      "thriller"
+    ],
+    "trailerUrl": "https://www.example.com/secret-agent-trailer"
+  },
+  {
+    "movieId": 9,
+    "title": "The Great Heist",
+    "director": "Chris Lee",
+    "genre": "Crime",
+    "description": "A group of elite thieves plan and execute the perfect heist.",
+    "language": "English",
+    "duration": 120,
+    "studio": "Crime Studios",
+    "rating": 7.8,
+    "movieCast": [
+      "Actor W",
+      "Actor X",
+      "Actor Y"
+    ],
+    "countryOfOrigin": "Germany",
+    "availableLanguages": [
+      "English",
+      "German"
+    ],
+    "subtitleLanguages": [
+      "English",
+      "French"
+    ],
+    "releaseYear": 2027,
+    "poster": "/images/the-great-heist-poster.jpg",
+    "boxOfficeRevenue": 250000000,
+    "productionCompany": "Heist Films",
+    "ageRating": "R",
+    "keywords": [
+      "heist",
+      "crime",
+      "thriller"
+    ],
+    "trailerUrl": "https://www.example.com/the-great-heist-trailer"
+  }
+]

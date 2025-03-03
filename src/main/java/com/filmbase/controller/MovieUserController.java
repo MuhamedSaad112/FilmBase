@@ -7,35 +7,21 @@ import com.filmbase.configuration.AppConstants;
 import com.filmbase.dto.MovieDTO;
 import com.filmbase.dto.MoviePageResponse;
 import com.filmbase.entity.Movie;
-import com.filmbase.exception.EmptyFileException;
 import com.filmbase.service.MovieService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1/movie")
 @RequiredArgsConstructor
-public class MovieController {
+public class MovieUserController {
 
     private final MovieService movieService;
-
-    @PostMapping("/add-movie")
-    public ResponseEntity<MovieDTO> addMovieHandler(@RequestPart String movieDTO, @RequestPart MultipartFile file) throws IOException {
-
-        if (file.isEmpty()) {
-            throw new EmptyFileException("File is empty! Please select a file!");
-        }
-        MovieDTO dto = convertToMovieDTO(movieDTO);
-
-        return new ResponseEntity<>(movieService.addMovie(dto, file), HttpStatus.CREATED);
-    }
 
     private MovieDTO convertToMovieDTO(String movieDTOObj) throws JsonProcessingException {
 
@@ -51,19 +37,6 @@ public class MovieController {
     @GetMapping("/all-list")
     public ResponseEntity<List<MovieDTO>> getAllMoviesHandler() {
         return new ResponseEntity<>(movieService.getAllMovies(), HttpStatus.OK);
-    }
-
-
-    @PutMapping("/update/{movieId}")
-    public ResponseEntity<MovieDTO> updateMovieHandler(@PathVariable Long movieId, @RequestPart String movieDTOObj, @RequestPart MultipartFile file) throws IOException {
-
-        MovieDTO movieDTO = convertToMovieDTO(movieDTOObj);
-        return ResponseEntity.ok(movieService.updateMovie(movieId, movieDTO, file));
-    }
-
-    @DeleteMapping("/delete/{movieId}")
-    public ResponseEntity<String> deleteMovieHandler(@PathVariable Long movieId) throws IOException {
-        return ResponseEntity.ok(movieService.deleteMovie(movieId));
     }
 
 
